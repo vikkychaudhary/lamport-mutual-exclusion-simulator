@@ -1,0 +1,18 @@
+.stApp{background:radial-gradient(1000px 600px at 10% -10%,rgba(124,58,237,.35),transparent 60%),radial-gradient(900px 600px at 100% 0%,rgba(34,211,238,.18),transparent 55%),linear-gradient(160deg,#070b1a 0%,#0c1230 55%,#150d33 100%);color:#e2e8f0}
+section[data-testid="stSidebar"]{background:rgba(15,23,52,.72);border-right:1px solid rgba(148,163,255,.18)}
+h1,h2,h3{letter-spacing:.2px}
+.hero{padding:22px 26px;border-radius:20px;background:linear-gradient(135deg,rgba(34,211,238,.12),rgba(139,92,246,.16));border:1px solid rgba(165,180,252,.25);box-shadow:0 10px 40px rgba(0,0,0,.35);margin-bottom:14px}
+.hero h1{margin:0;font-size:1.9rem;background:linear-gradient(90deg,#67e8f9,#a5b4fc,#c4b5fd);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{margin:6px 0 0;color:#cbd5e1}
+.glass{background:rgba(255,255,255,.06);border:1px solid rgba(165,180,252,.22);border-radius:16px;padding:14px 16px;box-shadow:0 8px 28px rgba(0,0,0,.3);transition:transform .2s ease,border-color .2s ease}
+.glass:hover{transform:translateY(-2px);border-color:rgba(103,232,249,.5)}
+.kpi-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:#94a3b8}
+.kpi-value{font-size:1.45rem;font-weight:700;color:#f1f5f9}
+.ok{color:#34d399}.bad{color:#fb7185}.warn{color:#fbbf24}
+.pcard{min-height:128px;margin-bottom:8px}
+.pcard.active{border-color:#fff;box-shadow:0 0 18px rgba(255,255,255,.25)}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:.72rem;font-weight:600;color:#fff}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.82rem;color:#cbd5e1}
+div[data-testid="stButton"]>button,div[data-testid="stDownloadButton"]>button{border-radius:12px;border:1px solid rgba(165,180,252,.35);background:rgba(99,102,241,.18);color:#e2e8f0;transition:all .2s ease}
+div[data-testid="stButton"]>button:hover,div[data-testid="stDownloadButton"]>button:hover{border-color:#67e8f9;background:rgba(34,211,238,.2);color:#fff}
+@media (max-width:700px){.hero h1{font-size:1.4rem}.kpi-value{font-size:1.15rem}}
